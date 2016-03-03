@@ -1,0 +1,73 @@
+-fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 ); -fx-background-radius: 10; -fx-text-fill: #654b00; -fx-font-weight: bold;
+-fx-border-color: lightblue;-fx-border-style: dotted; -fx-background-color:
+-fx-alignment: CENTER;
+File
+Load Grid
+Save Grid
+Exit
+Model
+Model Gravity
+Confirmation Dialog
+Data From Your Grid
+Source
+Target
+Calculate
+V1
+V2
+V3
+Edit
+nº Points X: 
+nº Points Y: 
+nº Points Z: 
+p1 (X): 
+p1 (Y): 
+p2 (X): 
+p2 (Y): 
+P1 (Z): 
+P2 (Z): 
+2
+2
+2
+0
+0
+100
+100
+0
+100
+Edit Planes
+X Axis
+Y Axis
+Z Axis
+Grid
+Grid not defined...
+Delete Grid
+Warning Message
+You are about to delete \nfrom memory the Grid:
+NV
+Classify
+Save Scale
+Load Scale
+Movement
+Create Grid
+Edit Grid
+Symbols
+Grids
+New Grid_
+Translation x:
+Rotation x:
+y:
+z:
+X Axis
+Y Axis
+Z Axis
+Save Grid File
+Grid Read_
+Open Grid File
+Save Scale File
+Load Scale File
+Grid Constructor
+New Grid
+Edit
+0.0
+-fx-font-weight: bold;
+Classify

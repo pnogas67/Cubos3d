@@ -1,0 +1,47 @@
+<html><head>
+  <SCRIPT src="./web-files/dtjava.js"></SCRIPT>
+<script>
+    function launchApplication(jnlpfile) {
+        dtjava.launch(            {
+                url : 'Cubos3d.jnlp',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxqbmxwIHNwZWM9IjEuMCIgeG1sbnM6amZ4PSJodHRwOi8vamF2YWZ4LmNvbSIgaHJlZj0iQ3Vib3MzZC5qbmxwIj4NCiAgPGluZm9ybWF0aW9uPg0KICAgIDx0aXRsZT5DdWJvczNkPC90aXRsZT4NCiAgICA8dmVuZG9yPlBlZHJvPC92ZW5kb3I+DQogICAgPGRlc2NyaXB0aW9uPm51bGw8L2Rlc2NyaXB0aW9uPg0KICAgIDxvZmZsaW5lLWFsbG93ZWQvPg0KICA8L2luZm9ybWF0aW9uPg0KICA8cmVzb3VyY2VzPg0KICAgIDxqZng6amF2YWZ4LXJ1bnRpbWUgdmVyc2lvbj0iMi4yKyIgaHJlZj0iaHR0cDovL2phdmFkbC5zdW4uY29tL3dlYmFwcHMvZG93bmxvYWQvR2V0RmlsZS9qYXZhZngtbGF0ZXN0L3dpbmRvd3MtaTU4Ni9qYXZhZngyLmpubHAiLz4NCiAgPC9yZXNvdXJjZXM+DQogIDxyZXNvdXJjZXM+DQogICAgPGoyc2UgdmVyc2lvbj0iMS42KyIgaHJlZj0iaHR0cDovL2phdmEuc3VuLmNvbS9wcm9kdWN0cy9hdXRvZGwvajJzZSIvPg0KICAgIDxqYXIgaHJlZj0iQ3Vib3MzZC5qYXIiIHNpemU9Ijk4MzU2IiBkb3dubG9hZD0iZWFnZXIiIC8+DQogIDwvcmVzb3VyY2VzPg0KICA8YXBwbGljYXRpb24tZGVzYyBtYWluLWNsYXNzPSJDdWJvczNkLkN1Ym9zM0QiICBuYW1lPSJDdWJvczNkIiA+DQogIDwvYXBwbGljYXRpb24tZGVzYz4NCiAgPHVwZGF0ZSBjaGVjaz0iYWx3YXlzIi8+DQo8L2pubHA+DQo='
+            },
+            {
+                javafx : '2.2+'
+            },
+            {}
+        );
+        return false;
+    }
+</script>
+
+<script>
+    function javafxEmbed() {
+        dtjava.embed(
+            {
+                toolkit : 'swing',
+                url : 'Cubos3d_browser.jnlp',
+                placeholder : 'javafx-app-placeholder',
+                width : 800,
+                height : 600,
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxqbmxwIHNwZWM9IjEuMCIgeG1sbnM6amZ4PSJodHRwOi8vamF2YWZ4LmNvbSIgaHJlZj0iQ3Vib3MzZF9icm93c2VyLmpubHAiPg0KICA8aW5mb3JtYXRpb24+DQogICAgPHRpdGxlPkN1Ym9zM2Q8L3RpdGxlPg0KICAgIDx2ZW5kb3I+UGVkcm88L3ZlbmRvcj4NCiAgICA8ZGVzY3JpcHRpb24+bnVsbDwvZGVzY3JpcHRpb24+DQogICAgPG9mZmxpbmUtYWxsb3dlZC8+DQogIDwvaW5mb3JtYXRpb24+DQogIDxyZXNvdXJjZXM+DQogICAgPGpmeDpqYXZhZngtcnVudGltZSB2ZXJzaW9uPSIyLjIrIiBocmVmPSJodHRwOi8vamF2YWRsLnN1bi5jb20vd2ViYXBwcy9kb3dubG9hZC9HZXRGaWxlL2phdmFmeC1sYXRlc3Qvd2luZG93cy1pNTg2L2phdmFmeDIuam5scCIvPg0KICA8L3Jlc291cmNlcz4NCiAgPHJlc291cmNlcz4NCiAgICA8ajJzZSB2ZXJzaW9uPSIxLjYrIiBocmVmPSJodHRwOi8vamF2YS5zdW4uY29tL3Byb2R1Y3RzL2F1dG9kbC9qMnNlIi8+DQogICAgPGphciBocmVmPSJDdWJvczNkLmphciIgc2l6ZT0iOTgzNTYiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgPC9yZXNvdXJjZXM+DQogIDxhcHBsZXQtZGVzYyAgd2lkdGg9IjgwMCIgaGVpZ2h0PSI2MDAiIG1haW4tY2xhc3M9IkN1Ym9zM2QuQ3Vib3MzRCIgIG5hbWU9IkN1Ym9zM2QiID4NCiAgPC9hcHBsZXQtZGVzYz4NCiAgPHVwZGF0ZSBjaGVjaz0iYWx3YXlzIi8+DQo8L2pubHA+DQo='
+            },
+            {
+                javafx : '2.2+'
+            },
+            {
+                onGetSplash : function() {}
+            }
+        );
+    }
+    <!-- Embed FX application into web page once page is loaded -->
+    dtjava.addOnloadCallback(javafxEmbed);
+</script>
+
+</head><body>
+<h2>Test page for <b>Cubos3d</b></h2>
+  <b>Webstart:</b> <a href='Cubos3d.jnlp' onclick="return launchApplication('Cubos3d.jnlp');">click to launch this app as webstart</a><br><hr><br>
+
+  <!-- Applet will be inserted here -->
+  <div id='javafx-app-placeholder'></div>
+</body></html>

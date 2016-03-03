@@ -1,0 +1,72 @@
+-fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 ); -fx-background-radius: 10; -fx-text-fill: #654b00; -fx-font-weight: bold;
+-fx-border-color: lightblue;-fx-border-style: dotted; -fx-background-color:
+-fx-alignment: CENTER;
+Ficheiro
+Abrir Rede
+Gravar Rede
+Sair
+Modelar
+Modelar Gravidade
+Confirmação
+Dados da sua rede
+Fonte
+Alvo
+Calcular
+V1
+V2
+V3
+Editar
+nº Pontos X: 
+nº Pontos Y: 
+nº Pontos Z: 
+p1 (X): 
+p1 (Y): 
+p2 (X): 
+p2 (Y): 
+P1 (Z): 
+P2 (Z): 
+2
+2
+2
+0
+0
+100
+100
+0
+100
+Editar Planos
+Eixo X
+Eixo YouEixo Z
+Rede
+Rede Não Definida...
+Apagar Rede
+Mensagem de Aviso
+Vai apagar da memória \na rede:
+NV
+Classificar
+Gravar Escala
+Abrir Escala
+Movimentos
+Criar Rede
+Editar Rede
+Simbolos
+Redes
+Nova Rede_
+Translacção x:
+Rotação x:
+y:
+z:
+Eixo X
+Eixo Y
+Eixo Z
+Gravar Rede
+Ler Rede_
+Abrir Rede
+Gravar Escala
+Abrir Escala
+Gerador de Redes
+Nova Rede
+Editar
+0.0
+-fx-font-weight: bold;
+Classificar
